@@ -4,6 +4,7 @@
 
 
 // .....All Element Selection will be undernith here...........
+const das = document.getElementById('das')
 // ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -14,6 +15,7 @@
 
 
 // ......All Function will go here undernith..........
+
 // ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 //All code will be deleted here.............
@@ -22,7 +24,7 @@ function printOut(text){
     div.innerHTML = text
     document.body.appendChild(div)
 }
-// addEventListener('click',()=>{
+// das.addEventListener('click',()=>{
 //     alert("this is working")
 // })
 // ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
